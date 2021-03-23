@@ -34,7 +34,7 @@ export default function Home() {
             <Player
               autoplay
               loop
-              src="/rocket_animation.json"
+              src="https://assets8.lottiefiles.com/packages/lf20_atjj0tgb.json"
             />
           </div>
           <div className="px-6 space-y-3">
