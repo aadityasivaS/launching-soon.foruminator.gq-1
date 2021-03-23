@@ -28,7 +28,7 @@ export default function Home() {
         <meta name="msapplication-TileColor" content="#2d89ef" />
         <meta name="theme-color" content="#ffffff" />
       </Head>
-      <main className="flex h-screen md:bg-gray-100">
+      <main className="flex h-screen md:bg-gray-100 font-sans">
         <div className="m-auto text-center space-y-3 md:bg-white md:p-5 md:rounded-lg md:shadow-lg">
           <div className="w-80 m-auto">
             <Player

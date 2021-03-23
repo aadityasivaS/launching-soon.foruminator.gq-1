@@ -4,10 +4,8 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-      extend: {
-        fontFamily: {
-          sans: ["Poppins", ...defaultTheme.fontFamily.sans],
-        },
+      fontFamily: {
+        sans: ["Poppins", ...defaultTheme.fontFamily.sans],
       },
     },
   },
