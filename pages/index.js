@@ -1,4 +1,5 @@
 import Head from "next/head";
+import { Player } from "@lottiefiles/react-lottie-player";
 
 export default function Home() {
   return (
@@ -27,6 +28,24 @@ export default function Home() {
         <meta name="msapplication-TileColor" content="#2d89ef" />
         <meta name="theme-color" content="#ffffff" />
       </Head>
+      <main className="flex h-screen md:bg-gray-100">
+        <div className="m-auto text-center space-y-3 md:bg-white md:p-5 md:rounded-lg md:shadow-lg">
+          <div className="w-80 m-auto">
+            <Player
+              autoplay
+              loop
+              src="/rocket_animation.json"
+            />
+          </div>
+          <div className="px-6 space-y-3">
+            <h1 className="text-4xl font-semibold">We are launching soon !</h1>
+            <p className="text-xl font-light">
+              Foruminator is a free and open source tool which allows you to
+              easily generate forum pages. We are currently in development.
+            </p>
+          </div>
+        </div>
+      </main>
     </div>
   );
 }
